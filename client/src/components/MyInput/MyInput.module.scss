@@ -1,0 +1,30 @@
+.container {
+  width: 100%;
+  position: fixed;
+
+  &__search {
+    display: flex;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 50%;
+    height: 50px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px 1px grey;
+    top: 30px;
+    opacity: 60%;
+    position: absolute;
+
+    &:active {
+    }
+  }
+}
+
+.search {
+  border: none;
+  position: absolute;
+  left: 73%;
+  right: 73%;
+  transform: translate(-30%, 43px);
+}

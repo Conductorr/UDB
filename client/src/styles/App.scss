@@ -1,0 +1,32 @@
+@import "./src/styles/media";
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+
+  padding: 0;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  margin-top: 60px;
+
+  @include mediaMaxWidth(1160px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include mediaMaxWidth(780px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.search {
+  position: absolute;
+}
