@@ -112,7 +112,6 @@ function App(): JSX.Element {
           <UserCardPopUp userBio={selectedUserBio} setIsOpen={setIsModalOpen} />
         </div>
       )}
-
       <MyInput
         className="search"
         onChange={(e) => setInputValue(e.target.value)}

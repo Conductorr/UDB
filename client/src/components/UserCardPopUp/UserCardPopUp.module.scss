@@ -7,11 +7,12 @@
   background-color: #fff;
   width: 40rem;
   min-height: 30rem;
-  border-radius: 15px;
+  border-radius: 20px;
   left: 50%;
-  top: 50%;
+  top: 40%;
   transform: translate(-50%, -50%);
-  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  opacity: 90%;
+  box-shadow: rgba(212, 221, 239, 0.8) 0 0 0 3000px;
 
   &__content {
     padding: 40px 20px 20px 20px;

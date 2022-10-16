@@ -1,7 +1,6 @@
 import React from "react";
-import styles from "./UserCardPopUp.module.scss";
-import { log } from "util";
 import { TUsersBio } from "api";
+import styles from "./UserCardPopUp.module.scss";
 
 type Props = {
   userBio: TUsersBio | null;
